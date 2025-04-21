@@ -1,0 +1,37 @@
+{
+    "name": "x509-parser",
+    "version": "1.0.0",
+    "type": "module",
+    "description": "Ultra lightweight X.509 / ASN.1 parser (Node.js, TypeScript, Browser)",
+    "main": "dist/index.js",
+    "types": "dist/index.d.ts",
+    "exports": {
+      ".": {
+        "import": "./dist/index.js",
+        "require": "./dist/index.cjs"
+      }
+    },
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/gwnl-gthb/x509-parser.git"
+    },
+    "keywords": [
+      "x509",
+      "certificate",
+      "asn1",
+      "parser",
+      "typescript",
+      "pem",
+      "der"
+    ],
+    "author": "TonNom",
+    "license": "MIT",
+    "scripts": {
+      "build": "tsc",
+      "prepare": "npm run build"
+    },
+    "devDependencies": {
+      "typescript": "^5.3.3"
+    }
+  }
+  
